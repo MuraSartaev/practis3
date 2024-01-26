@@ -74,7 +74,7 @@ class MyHomePage extends StatelessWidget {
                 ),
                 SizedBox(height: 20),
                 IconButton(
-                  icon: Align(
+                  icon: Row(
                     children:[Icon(Icons.data_usage),
                     Text('Data',textAlign: TextAlign.center,)] ,),
                   onPressed: () {},
